@@ -8,3 +8,18 @@ Enunciado:
 ---------------------------------------------------------------------------- */
 
 
+const box = [...document.querySelectorAll('.box')];
+box.map((elemento,index)=>{
+elemento.addEventListener('click', (evt)=>{
+vermelho();
+elemento.style.backgroundColor='yellow'
+
+})
+})
+
+function vermelho(){
+    box.map((elemento)=>{
+        elemento.style.backgroundColor ='red'
+    })
+    
+    }

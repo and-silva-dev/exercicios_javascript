@@ -16,7 +16,7 @@ const info1 = document.querySelector("#info1");
 const info2 = document.querySelector("#info2");
 const info3 = document.querySelector("#info3");
 
-tab1.addEventListener("click", (event) => {reset()
+tab1.addEventListener("click", (event) => {
   reset();
   info2.classList.add("dpnone");
   info3.classList.add("dpnone");
